@@ -4,7 +4,7 @@ body{
 }
 
 .mycanvas{
-    background-color: red;
+    background-color: rgb(134, 120, 255);
     height:450px;
     width:400px;
     position:absolute;
@@ -27,4 +27,44 @@ body{
     width:220px;
     border-radius:0 50% 50% 50%;
     transform:rotate(-135deg)
+}
+
+.face{
+    background-color: rgb(245, 191, 146);
+    height:68px;
+    width:155px;
+    position:relative;
+    bottom:180px;
+    left:31px;
+    border-radius:35px;
+}
+
+.hat{
+    background-color: pink;
+    height:150px;
+    width: 150px;
+    position:relative;
+    bottom:420px;
+    left:35px;
+    border-radius: 0 200px 0 0;
+}
+
+.bottom{
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-radius:20px;
+    position:relative;
+    top:140px;
+    right:25px;
+}
+
+.top{
+    background-color: white;
+    height:35px;
+    width:35px;
+    border-radius:50%;
+    position:relative;
+    bottom:65px;
+    right:35px;
 }
